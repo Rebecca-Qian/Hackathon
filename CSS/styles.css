@@ -2,6 +2,32 @@
 	height: 400px;
 }
 
+body {
+	background-color: #D8D8D8;
+}
+
+h1 a {
+	font-family: 'Alegreya Sans SC', sans-serif;
+	color: #FFF039;
+}
+
+h2 {
+	font-family: 'Alegreya Sans SC', sans-serif;
+}
+
+.row {
+	font-family: 'Josefin Sans', sans-serif;
+}
+
+/*prompt1 {
+	color: #FFB828;
+}*/
+
+.social-media {
+	padding-top: 50px;
+	padding-bottom: 100px;
+}
+
 .checkbox {
 	height: 400px;
 }
