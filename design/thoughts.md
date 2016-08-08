@@ -14,5 +14,10 @@ Orange: FFB828
 Purple: 9236E4
 Blue: 4A90E2
 
+Separating pages by sections:
+
+Fullpage . js is necessary and cool to separate pages by sections
+http://codepen.io/tutsplus/pen/dMvJaO example using Bootstrap
+
 
 
