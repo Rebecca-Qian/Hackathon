@@ -19,5 +19,7 @@ Separating pages by sections:
 Fullpage . js is necessary and cool to separate pages by sections
 http://codepen.io/tutsplus/pen/dMvJaO example using Bootstrap
 
+http://stackoverflow.com/questions/25129344/how-do-i-send-a-forms-results-to-an-email-using-html-and-javascript
+
 
 
