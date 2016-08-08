@@ -9,6 +9,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -18,22 +19,78 @@
     <![endif]-->
   </head>
   <body>
-    <h1><a href="index.html">Girls Who Code Challenge</a></h1>
+    <h1 id="challengeTitle"><a href="index.html">Girls Who Code Challenge</a></h1>
 
     <div class="container-fluid">
       <div class="row">
-        <h2 class="text-center">I am a...</h2>
+        <h2 id="prompt1" class="text-center">I am a...</h2>
+      </div>
+      <div id="eduLevel" class="row">
+        <div id="middleSchool" class="col-md-4 text-center checkbox"><label><input type="checkbox">Middle School Student</label></div>
+          <div id="highSchool" class="col-md-4 text-center checkbox"><label><input type="checkbox">High School Student</label></div>
+            <div id="college" class="col-md-4 text-center checkbox"><label><input type="checkbox">College Student</label></div>
+        </div>
+
+
+      <div class="row">
+        <h2 id="prompt2" class="text-center">I like...</h2>
+      </div>
+
+      <div id="selectInterest" class="row">
+        <div id="art" class="col-md-4 text-center checkbox"><label><input type="checkbox">Art</label></div>
+        <div id="science" class="col-md-4 text-center checkbox"><label><input type="checkbox">Science</label></div>
+        <div id="music" class="col-md-4 text-center checkbox"><label><input type="checkbox">Music</label></div> 
       </div>
       <div class="row">
-        <div class="col-md-4 text-center"><a href="interest_form.html">Middle School Student</a></div>
-        <div class="col-md-4 text-center"><a href="interest_form.html">High School Student</a></div>
-        <div class="col-md-4 text-center"><a href="interest_form.html">College Student</a></div>   
+        <div id="art" class="col-md-4 text-center checkbox"><label><input type="checkbox">Math</label></div>
+        <div id="science" class="col-md-4 text-center checkbox"><label><input type="checkbox">Sports</label></div>
+        <div id="music" class="col-md-4 text-center checkbox"><label><input type="checkbox">Games</label></div>
       </div>
+      <div class="row">
+        <div id="art" class="col-md-4 text-center checkbox"><label><input type="checkbox">Fashion</label></div>
+        <div id="science" class="col-md-4 text-center checkbox"><label><input type="checkbox">Travel</label></div>
+        <div id="music" class="col-md-4 text-center checkbox"><label><input type="checkbox">Food</label></div> 
+      </div> 
+      </div>
+
+      <div class="row">
+        <h2 id="prompt2" class="text-center">I want to...</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-3 text-center"><a href="learning_style.html">Learn about starting a company</a></div>
+        <div class="col-md-3 text-center"><a href="learning_style.html">Learn about coding</a></div>
+        <div class="col-md-3 text-center"><a href="learning_style.html">Learn about computers</a></div> 
+        <div class="col-md-3 text-center"><a href="learning_style.html">Learn about engineering</a></div>   
+      </div>
+
+      <div class="row">
+        <h2 class="text-center">I like learning...</h2>
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 text-center"><a href="resources.html">Through Videos</a></div>
+        <div class="col-md-4 text-center"><a href="resources.html">Through Games</a></div>
+        <div class="col-md-4 text-center"><a href="resources.html">Through Reading</a></div>   
+      </div>
+
+      <div class="row">
+        <div class="col-md-4 text-center"><a href="resources.html">With friends</a></div>
+        <div class="col-md-4 text-center"><a href="resources.html">In a Classroom</a></div>
+        <div class="col-md-4 text-center"><a href="resources.html">Through Podcasts</a></div>   
+      </div>
+     
+
+
+
+
+
     </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="js/bootstrap.min.js"></script>
+    <!-- script src="js/functions.js"></script -->
   </body>
 </html>
